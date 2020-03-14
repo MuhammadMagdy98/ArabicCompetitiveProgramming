@@ -10,7 +10,7 @@ int main() {
 		cin >> num;
 
 		int start = 1;
-		for (; ;) {	// ame as while (true)
+		for (; ;) {	// Same as while (true)
 			if(!(start <= num))
 				break;
 			sum += start;
